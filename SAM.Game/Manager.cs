@@ -426,7 +426,7 @@ namespace SAM.Game
                 // Check all.
                 foreach (ListViewItem item in this._AchievementListView.Items)
                 {
-                    item.Checked = true;
+                    item.Checked = false;
                 }
 
                 if (this._AchievementListView.Items.Count == 0)
